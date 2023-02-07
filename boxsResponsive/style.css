@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* LOS ELEMENTOS DENTRO DE LA FILA SE ACOMODAN AUTOMATICAMENTE
+  display: flex;
+  flex-wrap: wrap; */
+
+.container-flex {
+  border: 0.3rem solid black;
+  display: flex;
+  height: 50vh;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box1 {
+  background-color: aquamarine;
+  flex-grow: 1;
+  /* order: 2; */
+}
+
+.box2 {
+  background-color: brown;
+  flex-grow: 2;
+  /* order: 4; */
+}
+
+.box3 {
+  background-color: coral;
+}
+
+.box4 {
+  background-color: cornflowerblue;
+}
+
+.box5 {
+  background-color: crimson;
+}
+
+.box6 {
+  background-color: blue;
+}
