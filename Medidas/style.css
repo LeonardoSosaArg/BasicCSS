@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    /* TAMAÑO RELATIVO */
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.img{
+    border: 10px solid salmon
+}
+
+p{
+    text-align: center;
+    /* TAMAÑO DE LA FUENTE ABSOLUTO */
+    /* font-size: 18px; */
+}

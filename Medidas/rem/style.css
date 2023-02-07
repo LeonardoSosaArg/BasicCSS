@@ -1,0 +1,19 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+/* 1rem = 16px */
+html{
+    /* DEFINIMOS ESTO PARA UTILIZAR REM */
+    /* UTILIZA EL 62.5% DEL TAMAÑO DE FUENTE BASE DEL NAVEGADOR */
+    /* 0.1 REM = 10 PX */
+    font-size: 62.5%;
+}
+p{
+    font-size: 1.6rem;
+}
+
+
+
