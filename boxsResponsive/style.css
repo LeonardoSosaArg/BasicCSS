@@ -25,7 +25,6 @@ h3 {
 .container-flex {
   border: 0.3rem solid black;
   display: flex;
-  height: 50vh;
 }
 
 .box {
@@ -33,16 +32,27 @@ h3 {
   height: 10rem;
 }
 
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.box-grow {
+  height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+}
+
+
+
 .box1 {
   background-color: aquamarine;
-  flex-grow: 1;
-  /* order: 2; */
 }
 
 .box2 {
   background-color: brown;
-  flex-grow: 2;
-  /* order: 4; */
 }
 
 .box3 {
